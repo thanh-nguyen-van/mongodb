@@ -16,4 +16,5 @@ show dbs
    Drop a database. 
      db.dropDadatabase()
 
-5.
+5. Restore mongoDB with folder dump. 
+  mongorestore --host mongodb1.example.net --port 3017 --username user --password pass /opt/backup/mongodump-2013-10-24
