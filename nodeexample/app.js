@@ -55,5 +55,8 @@ app.use(function(err, req, res, next) {
     });
 });
 
-////////////////test
+
 module.exports = app;
+app.listen(3000);
+console.log("Seriver running ....");
+
