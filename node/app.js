@@ -3,7 +3,7 @@ var app = express();
 
 app.set("views",__dirname);
 app.set('view engine', 'ejs');
-//var routes = require('./routes.js');
+var routes = require('./routes.js');
 
 //app.get("/:name", function(req,res){
 //
